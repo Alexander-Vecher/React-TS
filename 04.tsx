@@ -1,4 +1,4 @@
-import React from "react";
+
 
 type PropsType= {
     title: string
@@ -17,7 +17,7 @@ export function Todolist(props: PropsType) {
             <div>
                 <input/>
                 <button>+</button>
-                <button>112</button>
+        
             </div>
             <ul>
                 {props.tasks.map((m, index)=>{
