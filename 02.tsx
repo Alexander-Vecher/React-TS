@@ -1,26 +1,19 @@
-<<<<<<< HEAD
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+function App() {
 
-ReactDOM.render(<App />,  document.getElementById('root'));
+    const task1 = [
+        { id: 1, title: "HTML&CSS", is: true},
+        {id: 2, title: "JS", is: true },
+        {id: 3, title: "ReactJS", is: false}
+    ]
+    const task2 = [
+            { id: 1, title: "Hello world", is: true},
+            {id: 2, title: "I am Happy", is: false },
+            {id: 3, title: "Yo", is: false}
+        ]
+    return (
+        <div className="App">
+            <Todolist title={"qqq"} task={task1}/>
+            <Todolist title={"www"} task={task2}/>
+        </div>);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-=======
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(<App />,  document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
->>>>>>> 23b869f644152376dddad94c017dce351dcaab68
-serviceWorker.unregister();
+}
