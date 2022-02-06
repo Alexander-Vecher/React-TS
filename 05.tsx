@@ -8,6 +8,7 @@ function remuve (id:number) {
     )
 
 }
+
 return (
     <div className="App">
         <Todolist title={"qqq"} task={task} remuve={remuve}/>
