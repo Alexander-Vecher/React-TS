@@ -2,20 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 
 const App = () => {
-  return (
-      <div>
-      <div> <Header /> </div>
-    <div className="App">
-      <ul>
-          <li>css</li>
-          <li>html</li>
-          <li>js</li>
-          <li>react</li>
-      </ul>
+    return (
+        <div>
+            <div><Header/></div>
+            <div className="App">
+                <ul>
+                    <li>css</li>
+                    <li>html</li>
+                    <li>js</li>
+                    <li>react</li>
+                </ul>
 
-    </div>
-  </div>
-);
+            </div>
+        </div>
+    );
 }
 const Header = () => {
     return (<div>
